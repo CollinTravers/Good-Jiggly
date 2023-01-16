@@ -29,3 +29,10 @@
 .div-inside-video-wrapper{
     background-color: black;
 }
+
+@media (max-width: 600px){
+    .video-embed-grid{
+        display: grid;
+        grid-template-columns: 0px 1fr 0px;
+    }
+}
