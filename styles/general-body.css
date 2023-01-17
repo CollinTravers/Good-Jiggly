@@ -9,7 +9,7 @@
     position: relative;
     padding-bottom: 56.25%;
     border-style: solid;
-    border: 10px;
+    border: 0px;
     border-color: black;
 }
 
@@ -30,7 +30,7 @@
     background-color: black;
 }
 
-@media (max-width: 600px){
+@media (max-width: 900px){
     .video-embed-grid{
         display: grid;
         grid-template-columns: 0px 1fr 0px;

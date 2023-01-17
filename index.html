@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <title>Good Jiggly</title>
         <link rel="stylesheet" href="styles/banner.css">
         <link rel="stylesheet" href="styles/general-body.css">
@@ -8,7 +9,11 @@
     </head>
     <body class="main-body">
         <div class="banner">
-            <img class="banner-image" src="images/actual_banner.jpg">
+            <picture>
+                <source media="(max-width: 900px)" srcset="images/GoodJiggly-Mobile.jpg">
+                <source media="(min-width: 901px)" srcset="images/actual_banner.jpg">
+                <img class="banner-image" src="images/actual_banner.jpg" alt="Other">
+            </picture>
         </div>
         <div class="video-embed-grid">
             <div class="left-video-embed">
