@@ -24,13 +24,14 @@
     width: 100px;
     display: flex;
     justify-content: center;
-
+    margin-top: 25px;
 }
 
-.button-container img{
-    margin-top: 25px;
+.button-container img,
+.button-link{
     width: 100px;
     height: 100px;
+    border-radius: 50%;
 }
 
 .button-container img:hover{
@@ -40,6 +41,10 @@
 @media (max-width: 900px){
     .banner{
         height: 50px;
+    }
+
+    .button-container{
+        margin-top: 2px;
     }
 
     .button-container img{
