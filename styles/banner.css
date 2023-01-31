@@ -47,9 +47,9 @@
         margin-top: 2px;
     }
 
-    .button-container img{
+    .button-container img,
+    .button-link{
         width: 45px;
         height: 45px;
-        margin-top: 2px;
     }
 }
